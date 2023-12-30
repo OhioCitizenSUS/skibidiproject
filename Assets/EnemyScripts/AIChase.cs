@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AiChase : MonoBehaviour
+public class AIChase : MonoBehaviour
 {
 	public GameObject player;
 
@@ -29,3 +29,4 @@ public class AiChase : MonoBehaviour
 	    }
     }
 }
+
