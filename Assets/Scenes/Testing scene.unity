@@ -225,7 +225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 637369526}
   - component: {fileID: 637369525}
-  - component: {fileID: 637369527}
   - component: {fileID: 637369528}
   m_Layer: 0
   m_Name: Square
@@ -301,21 +300,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &637369527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637369523}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c28f900c3fa74751b4184628235ec4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1524136665}
-  speed: 1
-  AtentionDistance: 0
 --- !u!114 &637369528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524136667}
   - component: {fileID: 1524136666}
-  - component: {fileID: 1524136668}
+  - component: {fileID: 1524136669}
   m_Layer: 0
   m_Name: skullyhd
   m_TagString: Untagged
@@ -414,7 +398,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1524136668
+--- !u!114 &1524136669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,12 +407,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524136665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c28f900c3fa74751b4184628235ec4c, type: 3}
+  m_Script: {fileID: 11500000, guid: 53b209bb9a2264957bed80ee753905b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 637369523}
   speed: 1
-  AtentionDistance: 6
+  AtentionDistance: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
